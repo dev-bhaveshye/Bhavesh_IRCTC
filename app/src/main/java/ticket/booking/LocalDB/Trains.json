@@ -1,0 +1,42 @@
+[
+  {
+    "train_id": "abc123",
+    "train_no": 98765,
+    "seats": [
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "mumbai": "08:30:00",
+      "pune": "10:45:00",
+      "hyderabad": "15:20:00"
+    },
+    "stations": [
+      "mumbai",
+      "pune",
+      "hyderabad"
+    ]
+  },
+  {
+    "train_id": "xyz789",
+    "train_no": 54321,
+    "seats": [
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0],
+      [0, 0, 0, 0, 0]
+    ],
+    "station_times": {
+      "chennai": "09:15:00",
+      "bangalore": "12:30:00",
+      "kochi": "18:00:00"
+    },
+    "stations": [
+      "chennai",
+      "bangalore",
+      "kochi"
+    ]
+  }
+]
