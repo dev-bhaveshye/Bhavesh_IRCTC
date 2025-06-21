@@ -21,7 +21,7 @@ public class TrainService {
         public TrainService() throws IOException {
             File trains = new File(TRAIN_DB_PATH);
             trainList = objectMapper.readValue(trains, new TypeReference<List<Train>>() {});
-            System.out.println(trainList.size()+" trains loaded");
+
         }
 
         public List<Train> searchTrains(String source, String destination) {
